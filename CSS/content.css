@@ -1,0 +1,413 @@
+.blocks {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.block1 {
+  width: 75%;
+  display: block;
+}
+.sort {
+  display: block;
+  width: 25%;
+  margin-left: 10px;
+}
+.sortBlock {
+  background-color: #212421;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+.sortStyle {
+  padding: 10px;
+}
+.sortHeader {
+  margin: 0;
+  font-size: 18px;
+}
+.pole1 {
+  width: inherit;
+  height: 35px;
+  background-color: #212421;
+  border: none;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+.pole2 {
+  width: 95.5%;
+  height: auto;
+  padding: 15px;
+  background-color: #191a19;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+.pole2:focus {
+  outline: 2px solid #4e9f3d;
+}
+#editPostPole {
+  resize: vertical;
+  font-family: Nunito Sans;
+  font-size: 17px;
+  padding-top: 15px;
+  overflow: hidden;
+  height: 100px;
+}
+#new_post_pole {
+  width: 80%;
+  resize: none;
+  font-family: Nunito Sans;
+  padding-top: 15px;
+  overflow: hidden;
+}
+#upload div {
+ position: relative;
+}
+#upload input[type=file] {
+ width: 0.1px;
+ height: 0.1px;
+ opacity: 0;
+ position: absolute;
+ z-index: -10;
+}
+.post {
+  width: 100%;
+  height: auto;
+}
+.postStyle {
+  background-color: #212421;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+.postDown {
+  display: flex;
+  justify-content: space-between;
+}
+#like {
+  background-color: rgba(28,28,28,0);
+  border: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+#like:hover {
+  cursor: pointer;
+  color: #1e5128;
+}
+.likes-count {
+  color: white;
+  font-size: 20px;
+}
+.additButt {
+  font-size: 18px;
+}
+.button {
+  display: none;
+}
+#but_new1 {
+  position: absolute;
+  margin-top: 15px;
+  right: 50px;
+}
+#but_new2 {
+  position: absolute;
+  right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.but_new {
+  font-size: 30px;
+  align: center;
+}
+#but_new1:hover {
+  color: #1e5128;
+  cursor: pointer;
+}
+#but_new2:hover {
+  color: #1e5128;
+}
+#but_new3:hover {
+  color: #1e5128;
+}
+.windBack {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.windBack:target {
+  display: block;
+  z-index: 9999;
+}
+.wind {
+  width: 35%;
+  height: auto;
+  position: relative;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #212421;
+}
+#windDel {
+  width: 30%;
+}
+.watch_comm {
+  color: #828282;
+}
+.watch_comm:hover {
+  color: #545454;
+  cursor: pointer;
+}
+details summary {
+  list-style: none;
+}
+.xmark {
+  float: right;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+.OK {
+  background-color: #4e9f3d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 10%;
+  font-size: 15px;
+  margin-left: 90%;
+}
+.OK:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+#okDel {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.NO {
+  background-color: #191a19;
+}
+.buttonsDel {
+  display: flex;
+  justify-content: center;
+}
+.post_text {
+  margin-top: 15px;
+  width: auto;
+  height: auto;
+  white-space: pre-wrap;
+  left: 0;
+}
+.comm {
+  display: block;
+  height: inherit;
+}
+#pole_comm {
+  width: 100%;
+  background-color: #191a19;
+  border-radius: 10px;
+  height: auto;
+  padding: 10px 0;
+  text-indent: 10px;
+}
+.post_file {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#avaPost {
+  border-radius: 30px;
+  float: left;
+  margin-right: 5px;
+  object-fit: cover;
+}
+#ava_comm {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  float: left;
+  margin-right: 5px;
+  object-fit: cover;
+}
+#postEdit {
+  color: #828282;
+}
+#postEdit:hover {
+  color: #1e5128;
+  cursor: pointer;
+}
+#postDel {
+  color: #828282;
+}
+#postDel:hover {
+  color: #a00000;
+  cursor: pointer;
+}
+#commDel {
+  color: #828282;
+  float: right;
+  margin-top: 0;
+}
+#commDel:hover {
+  color: #a00000;
+  cursor: pointer;
+}
+#load img {
+  width: auto;
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.commParts {
+  display: flex;
+  justify-content: space-between;
+}
+.commPart1 {
+  width: 100%;
+  display: flex;
+}
+.commButtSent {
+  border: none;
+  background-color: #212421;
+  font-size: 30px;
+  cursor: pointer;
+}
+.commText {
+  margin: 0;
+  color: white;
+  font-size: medium;
+}
+.commTextAnswer {
+  margin-left: 45px;
+}
+.commDate {
+  color: #828282;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.commBlock {
+  display: flex;
+}
+.commDo {
+  margin-left: 45px;
+  color: #828282;
+  font-size: medium;
+}
+.commAnswerHeader {
+  margin-top: 5px;
+  cursor: pointer;
+}
+.commAnswerHeader:hover {
+  color: #545454;
+}
+.commAnswerHeader2 {
+  margin-left: 45px;
+}
+.commAnswer {
+  margin: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.commAnswer:hover {
+  color: #545454;
+}
+.commAnswerParts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.commAnswerPart1 {
+  width: 100%;
+  display: flex;
+}
+.xmarkPhone {
+  display: none;
+}
+.buttUp {
+  border: none;
+  border-radius: 10px;
+  background-color: #212421;
+  width: 75%;
+  padding: 10px 0;
+  color: white;
+  font-size: 18px;
+}
+.buttUp:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .blocks {
+    display: block;
+  }
+  .sort {
+    display: none;
+  }
+  .block1 {
+    width: 100%;
+  }
+  .post {
+    width: 100%;
+  }
+  .wind {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    top: 0;
+    border-radius: 0;
+    position: fixed;
+  }
+  .windHeader {
+    margin-left: 35px;
+  }
+  #windDel {
+    width: 100%;
+    height: 25%;
+    top: 20%;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .xmark {
+    display: none;
+  }
+  .xmarkPhone {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+  }
+  #editPostPole {
+    width: 90%;
+  }
+  .OK {
+    float: right;
+    margin-right: 15px;
+    width: 15%;
+  }
+  .buttUp {
+    width: 100%;
+  }
+}

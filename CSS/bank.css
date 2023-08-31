@@ -1,0 +1,361 @@
+.blocks {
+  display: flex;
+}
+.buttAndTrans {
+  width: 65%;
+}
+.cards {
+  width: 35%;
+  margin-right: 10px;
+}
+.buttons {
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background-color: #212421;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+}
+.button:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+#firstBut {
+  margin-right: 10px;
+}
+.card {
+  width: 100%;
+  height: auto;
+  background-color: #212421;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+}
+.cardStyle {
+  padding: 10px;
+}
+#cardEdit {
+  color: #828282;
+  float: right;
+  margin-right: 3px;
+}
+#cardEdit:hover {
+  color: #1e5128;
+  cursor: pointer;
+}
+#cardDel {
+  color: #828282;
+  float: right;
+}
+#cardDel:hover {
+  color: #a00000;
+  cursor: pointer;
+}
+.cardBalance {
+  position: absolute;
+  font-size: 35px;
+}
+.cardDes {
+  border-radius: 10px;
+  float: right;
+  margin-bottom: 10px;
+}
+.cardNumb {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 247px;
+}
+#cardNew {
+  width: 100%;
+}
+#cardNew > i {
+  color: white;
+}
+#newNewCard {
+  margin-top: 0;
+  width: 100%;
+}
+.trans {
+  width: 100%;
+}
+.transInfHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #828282;
+}
+.transInf {
+  border-spacing: 0 30px 0 0;
+  width: 100%;
+  color: white;
+}
+.xmark {
+  float: right;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+.xmarkTrans {
+  position: absolute;
+  margin-left: 90%;
+}
+.windBack {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.windBack:target {
+  display: block;
+  z-index: 9999;
+}
+.windTrans {
+  width: 30%;
+  height: auto;
+  position: relative;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #212421;
+}
+.windHeaderDel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.pole1 {
+  width: 95%;
+  height: auto;
+  padding: 15px;
+  background-color: #191a19;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+.pole1:focus {
+  outline: 2px solid #4e9f3d;
+}
+.OK {
+  background-color: #4e9f3d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  float: right;
+}
+.OK:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+#okDelCard {
+  float: none;
+  margin-left: 47%;
+}
+#fileInput {
+  display: none;
+}
+select {
+  appearance: none;
+}
+#poleSel {
+  width: 100%;
+}
+#downArrow {
+  position: absolute;
+  top: 21%;
+  margin-left: 91%;
+}
+#downArrowNewCard {
+  position: absolute;
+  top: 59%;
+  margin-left: 91%;
+}
+#downArrowPenalt {
+  position: absolute;
+  top: 81px;
+  margin-left: 91%;
+}
+.transMess {
+  color: #828282;
+  font-size: 14px;
+}
+.fine {
+  display: flex;
+}
+.fineInf {
+  margin-left: 10px;
+}
+.trans1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 5px 5px 0 5px;
+}
+.trans1:hover {
+  background-color: #212421;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.transPart1 {
+  margin-top: 0;
+}
+.avaTrans {
+  border-radius: 50px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.transName {
+  margin: 0;
+  padding-left: 55px;
+  color: white;
+  font-size: 18px;
+}
+.transComm {
+  color: #828282;
+  font-size: 15px;
+}
+.transSum {
+  display: block;
+}
+.avaTransWatch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.transNameWatch {
+  margin-top: 0;
+  font-size: 18px;
+  color: white;
+}
+.transDateWatch {
+  margin-top: 0;
+  font-size: 15px;
+  color: #828282;
+}
+.transSumWatch {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.transCardWatch {
+  color: white;
+  font-size: 18px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.xmarkPhone {
+  display: none;
+}
+@media (max-width: 550px) {
+  .blocks {
+    display: block;
+  }
+  .buttAndTrans {
+    width: 100%;
+  }
+  .cards {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .cardNumb {
+    right: 30px;
+  }
+  .cardDes {
+    margin-bottom: 10px;
+  }
+  .buttons {
+    letter-spacing: 0;
+    margin: 0;
+    display: flex;
+  }
+  .button {
+    margin-bottom: 20px;
+    padding: 15px 0;
+    width: 100%;
+  }
+  #buttTrans {
+    margin-right: 10px;
+  }
+  .trans {
+    margin-left: 0;
+  }
+  .windTrans {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    top: 0;
+    border-radius: 0;
+    position: fixed;
+  }
+  .windHeader {
+    display: flex;
+    justify-content: center;
+  }
+  .windHeaderDel {
+    text-align: center;
+  }
+  .pole1 {
+    width: 90%;
+  }
+  #poleSel {
+    width: 97%;
+  }
+  .xmark {
+    display: none;
+  }
+  .xmarkPhone {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+  }
+  #downArrow {
+    top: 75px;
+    right: 30px;
+  }
+  #downArrowNewCard {
+    top: 145px;
+    right: 30px;
+  }
+  .OK {
+    float: right;
+    margin-right: 15px;
+  }
+  #okDelCard {
+    margin-left: 43%;
+  }
+}

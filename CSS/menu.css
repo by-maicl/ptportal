@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+.butt {
+  display: block;
+  height: 38px;
+  width: auto;
+  text-decoration: none;
+  border-radius: 7px;
+  margin: 0 auto;
+  color: white;
+  font-size: 21px;
+  text-align: left;
+  padding-right: 10px;
+}
+.butt:hover {
+  background: #212421;
+}
+#text {
+  padding-left: 5px;
+  text-align: left;
+  padding-top: 0.1px;
+  padding-bottom: 30px;
+}
+.panel {
+  display: block;
+  height: 38px;
+  width: auto;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+  font-size: 21px;
+  text-align: left;
+  padding-right: 10px;
+}
+.panel:hover {
+  background: #212421;
+}
+.menu {
+  width: 240px;
+  height: 1080px;
+  padding-left: 360px;
+  display: block;
+  float: left;
+}
+i {
+  color: #4e9f3d;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.content {
+  display: block;
+  padding: 15px 360px 0 605px;
+}
+::-webkit-scrollbar {
+  background-color: #191a19;
+  width: 10px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #212421;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4e9f3d;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+#invisibleInput {
+  display: none;
+}
+.mobMenuLox {
+  display: none;;
+}
+#ava {
+  border-radius: 30px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+@media (max-width: 550px) {
+  .content {
+    display: block;
+    margin: 0 5px 60px 5px;
+    padding: 0;
+  }
+  .menu {
+   display: none;
+  }
+  .upMenu {
+    display: none;
+  }
+  .mobMenuLox {
+    display: block;
+    background-color: #1e5128;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  ul.mobMenuList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .mobMenuPart {
+    width: 20%;
+    padding: 12px;
+  }
+  .mobMenuHref {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}

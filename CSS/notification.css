@@ -1,0 +1,29 @@
+.blocks {
+  display: flex;
+}
+.buttClear {
+  width: 30%;
+  height: 45px;
+  padding: 15px;
+  background-color: #212421;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.buttClear:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+.notification {
+  display: block;
+  width: 70%;
+  height: 7vh;
+  background-color: #212421;
+  border-radius: 10px;
+}
+.notificationStyle {
+  padding: 10px;
+}

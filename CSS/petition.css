@@ -1,0 +1,351 @@
+.buttons {
+  display: flex;
+}
+.button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #212421;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+#firstButt {
+  margin-right: 10px;
+}
+.petition {
+  width: 100%;
+  height: 150px;
+  background-color: #212421;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.petitionStyle {
+  padding: 10px;
+  height: inherit;
+}
+.petitionImg {
+  height: inherit;
+  border-radius: 10px 0 0 10px;
+  float: left;
+  object-fit: cover;
+  width: 29%;
+}
+.petitionHeader {
+  margin-top: 0;
+  color: white;
+  margin-left: 5px;
+  float: left;
+}
+.petitionInf {
+  float: left;
+  margin-left: 5px;
+  color: #828282;
+}
+progress {
+  -webkit-appearance: none;
+}
+progress {
+  position: absolute;
+  right: 375px;
+  display: block;
+  border-radius: 10px;
+  width: 10%;
+  height: 12px;
+  float: right;
+}
+progress::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: #191a19;
+}
+progress[value]::-webkit-progress-val {
+  border-radius: 10px;
+  background-color: #4e9f3d;
+}
+.petitionSub {
+  float: right;
+  color: #4e9f3d;
+  font-size: 18px;
+}
+.pole1 {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  background-color: #191a19;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  text-indent: 10px;
+}
+.pole1:focus {
+  outline: 2px solid #4e9f3d;
+}
+#pole3 {
+  width: 100%;
+  background-color: #191a19;
+  font-family: Nunito Sans;
+  resize: vertical;
+  height: 250px;
+}
+.windBack {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.windBack:target {
+  display: block;
+  z-index: 9999;
+}
+.wind {
+  width: 35%;
+  height: auto;
+  max-height: 80%;
+  position: relative;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #212421;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.xmark {
+  float: right;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+.OK {
+  background-color: #4e9f3d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  margin-left: 91%;
+}
+.OK:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+.warnCreate {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+}
+.buttImgInv {
+  display: none;
+}
+.buttImg {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  background-color: #191a19;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttImg:hover {
+  background-color: #1e5128;
+}
+#load img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.xmarkPhone {
+  display: none;
+}
+.buttImgText {
+  margin-left: 37%;
+}
+.watchImg {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  max-height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+}
+.watchText {
+  color: white;
+}
+#watchSub {
+  width: 100%;
+  float: none;
+  margin: 0;
+  background-color: #4e9f3d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+#watchSub:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+details summary {
+  list-style: none;
+}
+.answerWatch {
+  width: inherit;
+  height: auto;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #191a19;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.answerWatch:hover {
+  background-color: #1e5128;
+  cursor: pointer;
+}
+.answerText {
+  color: white;
+}
+#answerButt {
+  display: block;
+  background-color: #4e9f3d;
+}
+#answerButt:hover {
+  background-color: #1e5128;
+}
+.supportTrue {
+  width: 20%;
+  color: #4e9f3d;
+  text-align: center;
+  border: solid 2px #4e9f3d;
+  border-radius: 10px;
+  padding: 5px;
+}
+.supportFalse {
+  width: 20%;
+  color: #a00000;
+  text-align: center;
+  border: solid 2px #a00000;
+  border-radius: 10px;
+  padding: 5px;
+}
+@media (max-width: 550px) {
+  .wind {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    border-radius: 0;
+    position: fixed;
+  }
+  .windPhone {
+    padding: 10px;
+  }
+  .windHeader {
+    margin-left: 35px;
+  }
+  .xmark {
+    display: none;
+  }
+  .xmarkPhone {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+  }
+  .OK {
+    float: right;
+    margin-right: 15px;
+  }
+  .pole1 {
+    width: 98%;
+  }
+  #pole3 {
+    width: 98%;
+  }
+  .buttImg {
+    width: 98%;
+  }
+  .buttImgText {
+    margin-left: 30%;
+  }
+  .watchText {
+    width: 98%;
+    margin-bottom: 70px;
+  }
+  .petition {
+    height: auto;
+  }
+  .petitionImg {
+    display: block;
+    float: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+  .petitionHeader {
+    float: none;
+    margin: 0;
+    font-size: 20px;
+  }
+  .petitionBr {
+    display: none;
+  }
+  .petitionInf {
+    float: none;
+    margin: 0;
+  }
+  progress {
+    position: static;
+    width: 100%;
+    margin: 5px 0 0 0;
+    float: none;
+  }
+  .petitionSub {
+    float: right;
+  }
+  .subMob {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #212421;
+    border: none;
+  }
+  .supportTrue {
+    width: 35%;
+  }
+  .supportFalse {
+    width: 35%;
+  }
+}

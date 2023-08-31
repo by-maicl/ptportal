@@ -1,0 +1,168 @@
+.upMenu {
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #191a19;
+}
+.upMenuImg {
+  margin-top: -7px;
+  margin-right: 5px;
+  float: left;
+  border-radius: 10px;
+}
+.upMenuText {
+  margin-top: 20px;
+  font-size: 21px;
+  margin-left: 368px;
+  margin-right: 360px;
+}
+.upMenuPhone {
+  display: none;
+}
+#bell {
+  float: right;
+  margin-right: 10px;
+  font-size: 25px;
+}
+#bellCircle {
+  display: block;
+  right: 365px;
+  top: 16px;
+  font-size: 16px;
+  color: #1e5128;
+  position: absolute;
+  border-radius: 30px;
+}
+.bellCount {
+  display: block;
+  position: absolute;
+  right: 368.5px;
+  top: 14.5px;
+  color: white;
+  font-size: 14px;
+}
+.bellCountMore {
+  right: 366px;
+  top: 17px;
+  font-size: 11px;
+}
+.windNotification {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 365px;
+  width: 25%;
+  height: 60%;
+  background-color: #212421;
+  border: 1px solid #414141;
+  border-radius: 10px;
+  z-index: 99999;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.part1 {
+  width: 100%;
+}
+.part2 {
+  margin-left: 5px;
+}
+.notificationHr {
+  margin-bottom: 0;
+}
+.notificationHeader {
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+}
+.notification {
+  width: 100%;
+  height: auto;
+  color: white;
+  cursor: pointer;
+}
+.notification:hover {
+  background-color: #191a19;
+}
+.notificationStyle {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.notificationAva {
+  border-radius: 30px;
+  float: left;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  object-fit: cover;
+}
+.notificationName {
+  font-size: 16px;
+  margin: 0;
+}
+.notificationName font {
+  color: #828282;
+  font-size: 14px;
+}
+.notificationImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 0;
+  object-fit: cover;
+  background-color: #414141;
+}
+#bellMob {
+  display: none;
+}
+#bellCircleMob {
+  display: none;
+}
+.bellCountMob {
+  display: none;
+}
+@media (max-width: 550px) {
+  .upMenu {
+    display: none;
+  }
+  .br {
+    display: none;
+  }
+  .upMenuPhone {
+    display: block;
+  }
+  .upMenuImg {
+    float: left;
+    width: 30px;
+    margin-left: 5px;
+  }
+  #bellMob {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+  }
+  #bellCircleMob {
+    display: block;
+    font-size: 15px;
+    color: #1e5128;
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    border: 1px solid green;
+    border-radius: 30px;
+  }
+  .bellCountMob {
+    display: block;
+    position: absolute;
+    top: 13.5px;
+    right: 16.5px;
+    color: white;
+    font-size: 12px;
+  }
+}
